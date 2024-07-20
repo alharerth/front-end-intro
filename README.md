@@ -3,5 +3,6 @@
 hi from web
 | number | title |link|
 | ----------- | ----------- | ----------- |
-| Header | Title |[link](./classes/class1.md)|
-| Paragraph | Text |link|
+| 1 | begining |[link](./classes/class1.md)|
+| 2 | forms |[link](./classes/class2.md)|
+| 3 | title |link|
