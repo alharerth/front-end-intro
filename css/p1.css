@@ -5,20 +5,23 @@
 #navbar{
     background-color: rgb(247, 247, 189);
 }
-#navbar ul{
+.navlist{
     list-style: none;
     display: inline-flex;
     float: right;
     margin-top: 80px;
 
 }
-#navbar ul li{
-    margin-right: 200px;
+.navlist li{
+    margin-right: 100px;
 }
 .navitem{
     font-size: 20px;
     padding: 0 10px;
     border-radius: 20px;
+}
+.navitem:hover{
+    font-size: 25PX;
 }
 .griditem{
     margin-left: 20px;
@@ -30,13 +33,12 @@
     display: grid;
     grid-template-columns: auto auto auto;
     grid-gap: 10px;
-    background-color: aquamarine;
     margin-left: 40px;
     margin-right: 20px;
 }
 .griditem img{
     width: 200px;
-    display: block;
+    display: block; 
     margin-bottom: 10px;
     margin-left: auto;
     margin-right: auto
@@ -48,4 +50,34 @@
     border-radius: 40%;
     margin-top: 10px;
     padding: 4px 10px;
+}
+.hoverImage:hover{
+    border: 2px solid black;
+    width: 300px;
+
+}
+@media screen and (max-width:600px){
+    .gridcont{
+        grid-template-columns: auto auto;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .navlist{
+        float: none;
+        margin-top: 0px;
+    }
+    #navbar img {
+        margin-left: 30%;
+    }
+    .griditem img{
+        width: 100%;
+    }
+    .navlist{
+        width: 100%;
+    }
+    .navlist li{
+        padding: 0px;
+        margin-right: 10%;
+        width: 100%;
+    }
 }
