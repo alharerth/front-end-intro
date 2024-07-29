@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/p2.css">
+</head>
+<body>
+    <div id="navbar">
+        <a href="/home.html"><img src="https://media.post.rvohealth.io/wp-content/uploads/2019/05/Perfume_Bottles-732x549-Thumbnail.jpg" alt=""></a>        <ul class="navlist">
+            <li><a href="/page1.html"><button class="navitem">page1</button></a></li>
+            <li id="p2b"><a href="/p2.html"><button class="navitem">page2</button></a></li>
+            <li><a href="/p3.html"><button class="navitem">page3</button></a></li>
+        </ul>
+    </div>
+    <div class="formContainer">
+        <h2>User Registration Form</h2>
+        <form action="/submit-form" method="post">
+            <div class="form-group">
+                <label for="first-name">First Name:</label>
+                <input type="text" id="first-name" name="first-name" required>
+            </div>
+            <div class="form-group">
+                <label for="last-name">Last Name:</label>
+                <input type="text" id="last-name" name="last-name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <div class="form-group">
+                <label for="gender">Gender:</label>
+                <select id="gender" name="gender">
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="bio">Bio:</label>
+                <textarea id="bio" name="bio" rows="4"></textarea>
+            </div>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+    <div class="footer">
+        <p>&copy; musc-house Fragrances Store</p>
+        <p>Contact us: muschous@gmail.com</p>
+    </div>
+</body>
+</html>
