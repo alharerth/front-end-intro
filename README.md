@@ -5,4 +5,4 @@ hi from web
 | ----------- | ----------- | ----------- |
 | 1 | begining |[link](./classes/class1.md)|
 | 2 | forms |[link](./classes/class2.md)|
-| 3 | title |link|
+| 3 | store |[link](./classes/class3.md)|

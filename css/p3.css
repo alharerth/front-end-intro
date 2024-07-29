@@ -29,6 +29,8 @@
     text-align: center;
     background-color: #f5f5f5;
     padding: 50px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
 }
 .gridcont{
     display: grid;
@@ -42,15 +44,30 @@
     display: block; 
     margin-bottom: 10px;
     margin-left: auto;
-    margin-right: auto
+    margin-right: auto;
+    height: auto;
+    border-radius: 5px;
 }
 .griditem button{
     display: block;
     margin: auto;
-    font-size: 17px;
-    border-radius: 40%;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 5px;
     margin-top: 10px;
-    padding: 4px 10px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+
+}
+.griditem button:hover {
+    background-color: #45a049;
+}
+.griditem p {
+    margin-bottom: 10px;
+    font-size: 16px;
+    line-height: 1.6;
 }
 .hoverImage:hover{
     border: 2px solid black;
