@@ -1,0 +1,26 @@
+.gridContainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+    'item1 item2 .'
+    'item3 item4 item5';
+}
+.gridItem1{
+    grid-area: item1;
+}
+.gridItem2{
+    grid-area: item2;
+}
+.gridItem3{
+    grid-area: item3;
+}
+.gridItem4{
+    grid-area: item4;
+}
+.gridItem5{
+    grid-area: item5;
+}
+.col{
+    background-color: aquamarine;
+    margin: 5px;
+}
