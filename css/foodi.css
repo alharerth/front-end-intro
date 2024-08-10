@@ -1,0 +1,56 @@
+body{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+#logo{
+    width: 100px;
+    height: 50px;
+}
+
+.nav-link{
+    color: black;
+    font-size: 20px;
+}
+.nav-link:hover{
+    color: green;
+}
+.navbar-nav{
+    margin-left: 35%;
+}
+.btn{
+    width: 200px;
+    height: 50px;
+    background-color:#39DB4A;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    font-size: 20px;
+}
+.searchIcon{
+    color:black;
+    width: 30px;
+    height: 30px;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+.searchIcon1{
+    color:black;
+    width: 30px;
+    height: 30px;
+    
+}
+.cartButton{
+    border: none;
+    background: white;
+    margin: 0px;
+    padding: 0px;
+    margin-right: 20px;
+}
+.bg-green{
+    background-color:#39DB4A;
+}
