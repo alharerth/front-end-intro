@@ -54,3 +54,42 @@ body{
 .bg-green{
     background-color:#39DB4A;
 }
+#greenBg{
+    width: 680px;
+    height: 700px;
+    background-color: #39DB4A;
+    border-radius: 100%;
+    position: absolute;
+    z-index: -1;
+    top: 175px;
+    right: 103px;
+}
+.popup{
+    position: absolute;
+    top: 250px;
+    right: 550px;
+
+}
+.hot{
+    display: inline;
+    position: absolute;
+    top: 300px;
+    color: red;
+    font-size: larger;
+    right: 659px;
+}
+.pa{
+    font-size:60px;
+    float: left;
+    display: inline;
+    margin-top: 200px;
+    font-weight: 700;
+    color: black;
+}
+.ph{
+    position: absolute;
+    right: 111px;
+}
+.sp{
+    color: #39DB4A;
+}
