@@ -93,3 +93,7 @@ body{
 .sp{
     color: #39DB4A;
 }
+.dis{
+    display: block;
+    position: absolute;
+}

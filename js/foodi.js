@@ -1,4 +1,3 @@
-
 var contactButton = document.getElementById('contactButton')
 function contactUs(){
 alert("u r trying to contact us")
@@ -19,4 +18,13 @@ para.innerHTML='number is not a prime'
 var bg=document.getElementById('greenBg')
 function bc(){
 bg.style.backgroundColor="red"
+}
+var cc= document.getElementById('cartCounter')
+var c1= document.getElementsByClassName('cartCounter')
+function counter(id1){
+    if(c1[id1].innerHTML=='added to cart')
+        alert('already added to cart')
+    else
+    cc.innerHTML=parseInt(cc.innerHTML)+1
+    c1[id1].innerHTML='added to cart'
 }
