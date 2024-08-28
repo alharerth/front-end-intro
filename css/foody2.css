@@ -1,0 +1,39 @@
+
+.rec{
+    background-color: #39DB4A;
+    border: #39DB4A 2px solid;
+    border-radius: 0 30% 0 70%;
+    display: inline-block;
+    width: 80px;
+    height: 50px;
+    position: absolute;
+    z-index: 1;
+}
+#rec1{
+    right: 193px;
+}
+#rec2{
+    right: 574px;
+}
+#rec3{
+    right: 954px;
+}
+.ca{
+    border-radius:10%;
+}
+.heart{
+    position: absolute;
+    z-index: 2;
+}
+#ha1{
+    top: 87px;
+    right: 220px;
+}
+#ha2{
+    top: 87px;
+    right: 600px;
+}
+#ha3{
+    top: 87px;
+    right: 980px;
+}
