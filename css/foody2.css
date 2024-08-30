@@ -1,39 +1,25 @@
 
-.rec{
+.heart{
+    padding: 20px 35px;
     background-color: #39DB4A;
-    border: #39DB4A 2px solid;
-    border-radius: 0 30% 0 70%;
-    display: inline-block;
-    width: 80px;
-    height: 50px;
-    position: absolute;
-    z-index: 1;
-}
-#rec1{
-    right: 193px;
-}
-#rec2{
-    right: 574px;
-}
-#rec3{
-    right: 954px;
+    border-radius: 0 37% 0 70%;
 }
 .ca{
-    border-radius:10%;
+    border-radius:13%;
 }
 .heart{
     position: absolute;
     z-index: 2;
 }
 #ha1{
-    top: 87px;
-    right: 220px;
+    top: 70px;
+    right: 16.1%;
 }
 #ha2{
-    top: 87px;
-    right: 600px;
+    top: 70px;
+    right: 44.8%;
 }
 #ha3{
-    top: 87px;
-    right: 980px;
+    top: 70px;
+    left: 20.7%;
 }
