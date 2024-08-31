@@ -32,8 +32,8 @@ var images=[
         }
         for(var i=0;i<titles.length;i++){
 
-            item[i].children[1].src=images[Math.abs(j-3)]
-            item[i].children[1].innerHTML=titles[Math.abs(j-3)]
+            item[i].children[1].src=images[Math.abs(j-1)]
+            item[i].children[1].innerHTML=titles[Math.abs(j-1)]
             j--
         }
     }
