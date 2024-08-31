@@ -3,23 +3,31 @@
     padding: 20px 35px;
     background-color: #39DB4A;
     border-radius: 0 37% 0 70%;
+    position: absolute;
 }
 .ca{
     border-radius:13%;
+    position: relative;
 }
 .heart{
     position: absolute;
     z-index: 2;
 }
 #ha1{
-    top: 70px;
-    right: 16.1%;
+    top: 0px;
+    right: 0%;
 }
 #ha2{
-    top: 70px;
-    right: 44.8%;
+    top: 0px;
+    right: 0%;
 }
 #ha3{
-    top: 70px;
-    left: 20.7%;
+    top: 0px;
+    right: 0%;
+}
+@media (max-width: 767px) {
+    .ca {
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
