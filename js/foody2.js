@@ -12,7 +12,11 @@ var images=[
     var item = document.getElementsByClassName('ca')
 
     var j=0
-
+    var ba = document.getElementById('b')
+    var ne = document.getElementById('n')
+    if(j>3){
+        ba.style.backgroundColor="green"
+    }
     function nextItems(){
         if (j>titles.length-4){
             alert('no more items')
@@ -37,3 +41,4 @@ var images=[
             j--
         }
     }
+  
